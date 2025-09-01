@@ -59,7 +59,7 @@ jobs:
           random.shuffle(keywords)
           print(f"📝 Menghasilkan 50 item untuk feed...")
 
-          for keyword in keywords[:50]:
+          for keyword in keywords[:5]:
               random_prefix = random.choice(SPINTEXT)
               title = f"{random_prefix} {keyword.title()}"
               
